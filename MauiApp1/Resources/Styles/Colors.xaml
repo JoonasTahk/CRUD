@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Base Colors -->
+    <Color x:Key="Primary">#512BD4</Color>
+    <!-- Rich Purple -->
+    <Color x:Key="Secondary">#DFD8F7</Color>
+    <!-- Light Lavender -->
+    <Color x:Key="Tertiary">#2B0B98</Color>
+    <!-- Deep Blue -->
+    <Color x:Key="White">#FFFFFF</Color>
+    <!-- Pure White -->
+    <Color x:Key="Black">#000000</Color>
+    <!-- Pure Black -->
+
+    <!-- Grayscale -->
+    <Color x:Key="Gray100">#F5F5F5</Color>
+    <!-- Light Gray -->
+    <Color x:Key="Gray200">#E0E0E0</Color>
+    <Color x:Key="Gray300">#BDBDBD</Color>
+    <Color x:Key="Gray400">#9E9E9E</Color>
+    <Color x:Key="Gray500">#757575</Color>
+    <Color x:Key="Gray600">#616161</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+
+    <!-- Vibrant Accent Colors -->
+    <Color x:Key="Yellow100Accent">#FDD835</Color>
+    <!-- Bright Yellow -->
+    <Color x:Key="Yellow200Accent">#FFEB3B</Color>
+    <Color x:Key="Yellow300Accent">#FFF59D</Color>
+    <Color x:Key="Cyan100Accent">#00BCD4</Color>
+    <!-- Vibrant Cyan -->
+    <Color x:Key="Cyan200Accent">#26C6DA</Color>
+    <Color x:Key="Cyan300Accent">#80DEEA</Color>
+    <Color x:Key="Blue100Accent">#2196F3</Color>
+    <!-- Bright Blue -->
+    <Color x:Key="Blue200Accent">#64B5F6</Color>
+    <Color x:Key="Blue300Accent">#BBDEFB</Color>
+    <Color x:Key="Pink100Accent">#E91E63</Color>
+    <!-- Vibrant Pink -->
+    <Color x:Key="Pink200Accent">#F06292</Color>
+    <Color x:Key="Pink300Accent">#F8BBD0</Color>
+    <Color x:Key="Green100Accent">#4CAF50</Color>
+    <!-- Bright Green -->
+    <Color x:Key="Green200Accent">#81C784</Color>
+    <Color x:Key="Green300Accent">#C8E6C9</Color>
+    <Color x:Key="Orange100Accent">#FF9800</Color>
+    <!-- Vibrant Orange -->
+    <Color x:Key="Orange200Accent">#FFB74D</Color>
+    <Color x:Key="Orange300Accent">#FFE0B2</Color>
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+    <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}"/>
+    <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}"/>
+    <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}"/>
+    <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
+    <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+
+    <!-- Vibrant Accent Brushes -->
+    <SolidColorBrush x:Key="Yellow100AccentBrush" Color="{StaticResource Yellow100Accent}"/>
+    <SolidColorBrush x:Key="Yellow200AccentBrush" Color="{StaticResource Yellow200Accent}"/>
+    <SolidColorBrush x:Key="Yellow300AccentBrush" Color="{StaticResource Yellow300Accent}"/>
+    <SolidColorBrush x:Key="Cyan100AccentBrush" Color="{StaticResource Cyan100Accent}"/>
+    <SolidColorBrush x:Key="Cyan200AccentBrush" Color="{StaticResource Cyan200Accent}"/>
+    <SolidColorBrush x:Key="Cyan300AccentBrush" Color="{StaticResource Cyan300Accent}"/>
+    <SolidColorBrush x:Key="Blue100AccentBrush" Color="{StaticResource Blue100Accent}"/>
+    <SolidColorBrush x:Key="Blue200AccentBrush" Color="{StaticResource Blue200Accent}"/>
+    <SolidColorBrush x:Key="Blue300AccentBrush" Color="{StaticResource Blue300Accent}"/>
+    <SolidColorBrush x:Key="Pink100AccentBrush" Color="{StaticResource Pink100Accent}"/>
+    <SolidColorBrush x:Key="Pink200AccentBrush" Color="{StaticResource Pink200Accent}"/>
+    <SolidColorBrush x:Key="Pink300AccentBrush" Color="{StaticResource Pink300Accent}"/>
+    <SolidColorBrush x:Key="Green100AccentBrush" Color="{StaticResource Green100Accent}"/>
+    <SolidColorBrush x:Key="Green200AccentBrush" Color="{StaticResource Green200Accent}"/>
+    <SolidColorBrush x:Key="Green300AccentBrush" Color="{StaticResource Green300Accent}"/>
+    <SolidColorBrush x:Key="Orange100AccentBrush" Color="{StaticResource Orange100Accent}"/>
+    <SolidColorBrush x:Key="Orange200AccentBrush" Color="{StaticResource Orange200Accent}"/>
+    <SolidColorBrush x:Key="Orange300AccentBrush" Color="{StaticResource Orange300Accent}"/>
+
+</ResourceDictionary>
